@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #67bbfb;
+}
+
+h1 {
+    color: brown;
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.activity {
+    background-color: rgb(214, 214, 214);
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    transition: 3s ease;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgb(151, 151, 151);
+}
+
+.activity:hover {
+    transition: 0s;
+    overflow: hidden;
+}
